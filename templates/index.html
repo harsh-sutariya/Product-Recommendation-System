@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Recommender</title>
+</head>
+<body>
+    <h1>Product Recommender</h1>
+    <form method="POST">
+        <label for="query">Enter Query:</label>
+        <input type="text" id="query" name="query" required>
+        <button type="submit">Get Recommendations</button>
+    </form>
+    <h2>Recommended Products:</h2>
+    <ul>
+        {% for product in recommended_products %}
+        <li>{{ product }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
