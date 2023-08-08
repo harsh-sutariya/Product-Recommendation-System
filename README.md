@@ -17,7 +17,7 @@ Sure, I'd be happy to explain the techniques used in your product recommendation
 
 5. **Final Result:** The final clusters are formed, and each product description belongs to one of these clusters.
 
-In your app, K-Means helps group similar product descriptions together, making it easier to recommend products based on similarity within clusters.
+In this app, K-Means helps group similar product descriptions together, making it easier to recommend products based on similarity within clusters.
 
 ## Latent Semantic Analysis (LSA):
 
