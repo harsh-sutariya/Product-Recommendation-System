@@ -3,6 +3,11 @@
 This is a Flask-based web application that provides product recommendations based on product descriptions using clustering and cosine similarity.
 Sure, I'd be happy to explain the techniques used in your product recommendation project: K-Means and Latent Semantic Analysis (LSA).
 
+## Note
+Due to github file size limit, I'm am unable to push the dataset and the .pkl files.
+
+The dataset is from : https://www.kaggle.com/c/home-depot-product-search-relevance/data
+
 ## K-Means Clustering:
 
 **K-Means** is a popular unsupervised machine learning algorithm used for clustering data points into groups or clusters based on their similarity. In your project, K-Means is used to group product descriptions into clusters based on their content. Here's how it works:
